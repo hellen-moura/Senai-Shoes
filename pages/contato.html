@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sapataria da FORD ">
+    <meta name="Autora:" content="Hellen Moura">
+    <title>Contato</title>
+    <!-- Referencia para nosso Style.css -->
+    <link rel="stylesheet" href="../syle.css">
+    <link rel="stylesheet" href="../contato.css">
+</head>
+
+<body>
+    <header id="header">
+        <section class="container-grid header-flex">
+            <div class="logo-header">
+                <img src="../assets/img/Logo.png " alt="logo do site Senai_Shoes">
+            </div>
+            <nav class="links-header">
+                <ul class="nav-links">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../index.html#produtos">Produtos</a></li>
+                    <li><a href="#footer">Sobre Nós</a></li>
+                    <li><a href="./contato.html#cont">Contato</a></li>
+                </ul>
+
+            </nav>
+            <div class="input-search">
+                <input type="text" placeholder="Pesquise aqui...">
+            </div>
+            <nav class="links-header">
+                <ul class="nav-icons">
+
+                    <li><a href=""><img src="../assets/icons/bag.png"
+                                alt="icone de sacola para realizar acesso ao carrinho de compras"></a></li>
+                    <li><a href=""><img src="../assets/icons/user.png"
+                                alt="icone de login para realizar acesso na plataforma"></a></li>
+                    <li><a href=""><img src="../assets/icons/login.png"
+                                alt="icone de login para realizar acesso na plataforma"></a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main id="contato">
+        <section class="container-grid"></section>
+        <div class="titulo-forms">
+            <h1>
+                Contato
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sunt ab repudiandae obcaecati ipsa
+                placeat magnam? Architecto corrupti aut inventore.
+            </p>
+        </div>
+
+        <!-- criação do formulário -->
+        <form action="#">
+            <!-- fieldset é usado para agrupar elementos -->
+            <fieldset class="contorno-form form-flex">
+                <legend id="cont">Entre em contato conosco...</legend>
+                <div class="info-flex">
+
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" id="nome" placeholder="Digite seu nome..." required>
+                <!-- required= campo obrigatório -->
+
+                <label for="sobrenome"><strong>Sobreome</strong></label>
+                <input type="text" id="sobrenome" placeholder="Digite seu sobrenome..." required>
+
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" id="email" placeholder="Digite seu email..." required>
+
+                <label for="select">Sobre o que você deseja falar?</label>
+                <select name="valores" id="valroes">
+                    <option selected disabled>Selecione uma opção</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Vendas">Vendas</option>
+                    <option value="Trabalhe conosco">Trabalhe conosco</option>
+                    <option value="Suporte">Suporte</option>
+                    <option value="Financeiro">Financeiro</option>
+                </select>
+
+                <label for="Nos conte o que deseja..."></label>
+                <textarea name="informacoes" id="informacoes" cols="60" rows="6" placeholder="Digite aqui..."
+                    maxlength="100"></textarea>
+                <!-- maxlength limita os caracteres -->
+                <button type="subimit">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+
+        </section>
+
+    </main>
+    <!--Fim main-->
+    <footer id="footer">
+
+        <section class="container-grid footer-flex">
+            <article class="box-01"> <!--criado para englobar informações da logo e links de midias sociais-->
+                <img src="../assets/img/Logo.png" alt="Logo site Senai-shoes">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem consectetur suscipit voluptas
+                    excepturi nihil?</p>
+                <div class="midia-box-footer">
+                    <a href=""><img src="../assets/icons/instagram.png" alt="logo instagran"></a>
+                    <a href=""><img src="../assets/icons/facebook.png" alt="logo facebook"></a>
+                    <a href=""><img src="../assets/icons/linkedin.png" alt="logo do linkedin"></a>
+
+                </div>
+
+            </article>
+            <article class="box-02">
+                <h1>Links Úteis</h1>
+                <ul>
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#main-produtos">Produtos</a></li>
+                    <li><a href="#Footer">Sobre Nós</a></li>
+                </ul>
+
+
+            </article>
+            <article class="box-03">
+                <h1>Contatos</h1>
+                <h4>Localização</h4>
+                <p>Rua Moreira de Godoi, 226 -Ipiranga - SP</p>
+                <h4>Faça parte do Time</h4>
+                <p>sapataria@sapataria.com</p>
+                <h4>Telefone</h4>
+                <p>(11)99999-9999</p>
+
+            </article>
+            <article class="box-04">
+                <h1>News Letter</h1>
+                <div class="input-gradient">
+                    <input type="email" placeholder="Informe seu email...">
+
+                </div>
+                <div>
+                    <button class="button-footer" type="submit">Enviar</button>
+                </div>
+            </article>
+
+        </section>
+        <div class="container-grid footer-bottom">
+            <a href="#header"> <img src="../assets/icons/arrow-up.png"
+                    alt="imagem de seta para direcionar inicio da pagina"></a>
+            <p class="copyright">&copy;Todos os direitos reservados</p>
+        </div>
+
+
+
+    </footer>
+
+</body>
+
+</html>
